@@ -1,0 +1,3 @@
+How to display the text:
+- Could have it in the JLabel, and have the buttons in the JOptionPane
+- Could have a map or something in the JLabel, and the text and buttons in the JOptionPane
