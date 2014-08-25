@@ -1,6 +1,6 @@
 /**
  * Author: Erik Martin
- * Date: 23 August 2014
+ * Date: 24 August 2014
  * Description: Contains information about each location: what text to display and what the buttons do.
  */
 package mindlesslump.ludumdare30;
@@ -27,6 +27,9 @@ public class Location{
 		locationName = name;
 		locationText = text;
 		buttons = new ArrayList<ButtonAction>();
+		for(int j = 0; j < 8; j++) {
+			buttons.add(new ButtonAction());
+		}
 		imagePath = "";
 	}
 	
@@ -55,7 +58,7 @@ public class Location{
 	}
 	
 	public void addButtonAction(int num, ButtonAction b) {
-		buttons.add(num-1, b);
+		buttons.set(num-1, b);
 	}
 	
 	public void removeButtonAction(int num) {

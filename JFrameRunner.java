@@ -1,6 +1,6 @@
 /**
  * Author: Erik Martin
- * Date: 23 August 2014
+ * Date: 24 August 2014
  * Description: Runs the JFrame in which the game is run.
  */
 package mindlesslump.ludumdare30;

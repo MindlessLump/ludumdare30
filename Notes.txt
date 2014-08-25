@@ -1,3 +1,17 @@
-How to display the text:
-- Could have it in the JLabel, and have the buttons in the JOptionPane
-- Could have a map or something in the JLabel, and the text and buttons in the JOptionPane
+Location information:
+
+Main Road (L7P1)
+You come to the main road of the city, which is uncommonly busy. Hundreds of people are streaming into the city from the outlying lands. There is a city guard standing nearby, watching the crowd for signs of trouble. The main road continues north, and there is an inn to the west, though you doubt you could get anywhere in this crowd. The gates stand open to your south; you can just make out the legendary world bridge in the distance. Press Button 1 to talk to the guard. Press Button 7 to follow the side road.
+- Button 1: Go to L7P2
+- Button 7: Go to L6P2 (This Location exists already)
+
+Main Road (L7P2)
+You approach the guard. He glances at you, gruffly telling you to move along, then does a double take. Upon realizing who you are, he apologizes and asks what he can to to help you. You ask about the crowd of people hurrying into the city. He explains that, without the Staff of Amaros to protect the city from the wilds of Trelf, all manner of creatures are free to cross the great world bridge and attack the people of Ghalvar. The mayor ordered for all the people living in the outlying settlements to come into the city for protection. Press Button 1 to keep talking to the guard. Press Button 6 to exit the city and begin searching for the Staff of Amaros. Press Button 7 to follow the side road.
+- Button 1: Go to L7P3
+- Button 6: Go to L8P1
+- Button 7: Go to L6P2
+
+Main Road (L7P3)
+The guard also tells you that the city watch will close the gate at sundown, so anyone left on the other side will have to wait until morning - and with so many dangerous creatures coming across the world bridge, they might not live through the night. Nonetheless, you need to retrieve that staff, and fast. You expect that the creatures of Trelf will swarm across the bridge at sundown, and the city's defenses aren't all that strong, as it mainly relied on the staff for protection. You need to retrieve that staff by sundown, or the city of Ghalvar will be lost. Press Button 6 to exit the city and begin searching for the Staff of Amaros. Press Button 7 to follow the side road.
+- Button 6: Go to L8P1
+- Button 7: Go to L6P2
