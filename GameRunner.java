@@ -65,100 +65,104 @@ public class GameRunner implements ActionListener{
 		l7p1 = new Location("Main Road", "You come to the main road of the city, which is uncommonly busy. Hundreds of people are streaming into the city from the outlying lands. There is a city guard standing nearby, watching the crowd for signs of trouble. The main road continues north, and there is an inn to the west, though you doubt you could get anywhere in this crowd. The gates stand open to your south; you can just make out the legendary world bridge in the distance. Press Button 1 to talk to the guard. Press Button 7 to follow the side road.");
 		l7p2 = new Location("Main Road", "You approach the guard. He glances at you, gruffly telling you to move along, then does a double take. Upon realizing who you are, he apologizes and asks what he can to to help you. You ask about the crowd of people hurrying into the city. He explains that, without the Staff of Amaros to protect the city from the wilds of Trelf, all manner of creatures are free to cross the great world bridge and attack the people of Ghalvar. The mayor ordered for all the people living in the outlying settlements to come into the city for protection. Press Button 1 to keep talking to the guard. Press Button 6 to exit the city and begin searching for the Staff of Amaros. Press Button 7 to follow the side road.");
 		l7p3 = new Location("Main Road", "The guard also tells you that the city watch will close the gate at sundown, so anyone left on the other side will have to wait until morning - and with so many dangerous creatures coming across the world bridge, they might not live through the night. Nonetheless, you need to retrieve that staff, and fast. You expect that the creatures of Trelf will swarm across the bridge at sundown, and the city's defenses aren't all that strong, as it mainly relied on the staff for protection. You need to retrieve that staff by sundown, or the city of Ghalvar will be lost. Press Button 6 to exit the city and begin searching for the Staff of Amaros. Press Button 7 to follow the side road.");
+		l8p1 = new Location("That's All Folks!", "As 48 hours is not a lot of time, and I am quite new to this, this is as far as the game goes. I hope you enjoyed it at least a little. This took quite a bit of work, as I'm sure you know. Anyway, have a nice day! Press any button to close the window. Seriously, any button. Not the minimize button, though. That will minimize the window. Or the ones in the JFrame. They won't do anything. So really, just the big red one in the top right corner. Or top left corner, if you're on a Mac. Doesn't really matter. Bye!");
 		
 		l0p0.setImagePath("src/mindlesslump/ludumdare30/startMap.jpg");
 		l0p0.addButtonAction(1, new ButtonAction(1, l0p1));
 		l0p0.addButtonAction(8, new ButtonAction(8, l0p0));
-		l0p1.setImagePath("src/mindlesslump/ludumdare30/startMap.jpg");
+		l0p1.setImagePath("mindlesslump/ludumdare30/startMap.jpg");
 		l0p1.addButtonAction(1, new ButtonAction(1, l1p1));
 		l0p1.addButtonAction(8, new ButtonAction(8, l0p1));
 		
-		l1p1.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
+		l1p1.setImagePath("mindlesslump/ludumdare30/map1.jpg");
 		l1p1.addButtonAction(1, new ButtonAction(1, l1p2));
 		l1p1.addButtonAction(8, new ButtonAction(8, l1p1));
-		l1p2.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
+		l1p2.setImagePath("mindlesslump/ludumdare30/map1.jpg");
 		l1p2.addButtonAction(1, new ButtonAction(1, l1p3));
 		l1p2.addButtonAction(8, new ButtonAction(8, l1p2));
-		l1p3.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
+		l1p3.setImagePath("mindlesslump/ludumdare30/map1.jpg");
 		l1p3.addButtonAction(1, new ButtonAction(1, l1p4));
 		l1p3.addButtonAction(6, new ButtonAction(6, l2p1));
 		l1p3.addButtonAction(8, new ButtonAction(8, l1p3));
-		l1p4.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
+		l1p4.setImagePath("mindlesslump/ludumdare30/map1.jpg");
 		l1p4.addButtonAction(1, new ButtonAction(1, l2p1));
 		l1p4.addButtonAction(8, new ButtonAction(8, l1p4));
 		
-		l2p1.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
+		l2p1.setImagePath("mindlesslump/ludumdare30/map2.jpg");
 		l2p1.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p1.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p1.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p1.addButtonAction(8, new ButtonAction(8, l2p1));
-		l2p2.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
+		l2p2.setImagePath("mindlesslump/ludumdare30/map2.jpg");
 		l2p2.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p2.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p2.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p2.addButtonAction(8, new ButtonAction(8, l2p2));
-		l2p3.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
+		l2p3.setImagePath("mindlesslump/ludumdare30/map2.jpg");
 		l2p3.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p3.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p3.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p3.addButtonAction(8, new ButtonAction(8, l2p3));
 		
-		l3p1.setImagePath("src/mindlesslump/ludumdare30/map3.jpg");
+		l3p1.setImagePath("mindlesslump/ludumdare30/map3.jpg");
 		l3p1.addButtonAction(5, new ButtonAction(5, l2p3));
 		l3p1.addButtonAction(6, new ButtonAction(6, l4p2));
 		l3p1.addButtonAction(8, new ButtonAction(8, l3p1));
-		l3p2.setImagePath("src/mindlesslump/ludumdare30/map3.jpg");
+		l3p2.setImagePath("mindlesslump/ludumdare30/map3.jpg");
 		l3p2.addButtonAction(5, new ButtonAction(5, l2p3));
 		l3p2.addButtonAction(6, new ButtonAction(6, l4p2));
 		l3p2.addButtonAction(8, new ButtonAction(8, l3p2));
 		
-		l4p1.setImagePath("src/mindlesslump/ludumdare30/map4.jpg");
+		l4p1.setImagePath("mindlesslump/ludumdare30/map4.jpg");
 		l4p1.addButtonAction(2, new ButtonAction(2, l3p2));
 		l4p1.addButtonAction(5, new ButtonAction(5, l5p2));
 		l4p1.addButtonAction(8, new ButtonAction(8, l4p1));
-		l4p2.setImagePath("src/mindlesslump/ludumdare30/map4.jpg");
+		l4p2.setImagePath("mindlesslump/ludumdare30/map4.jpg");
 		l4p2.addButtonAction(2, new ButtonAction(2, l3p2));
 		l4p2.addButtonAction(5, new ButtonAction(5, l5p2));
 		l4p2.addButtonAction(8, new ButtonAction(8, l4p2));
 		
-		l5p1.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
+		l5p1.setImagePath("mindlesslump/ludumdare30/map5.jpg");
 		l5p1.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p1.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p1.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p1.addButtonAction(8, new ButtonAction(8, l5p1));
-		l5p2.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
+		l5p2.setImagePath("mindlesslump/ludumdare30/map5.jpg");
 		l5p2.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p2.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p2.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p2.addButtonAction(8, new ButtonAction(8, l5p2));
-		l5p3.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
+		l5p3.setImagePath("mindlesslump/ludumdare30/map5.jpg");
 		l5p3.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p3.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p3.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p3.addButtonAction(8, new ButtonAction(8, l5p3));
 		
-		l6p1.setImagePath("src/mindlesslump/ludumdare30/map6.jpg");
+		l6p1.setImagePath("mindlesslump/ludumdare30/map6.jpg");
 		l6p1.addButtonAction(5, new ButtonAction(5, l7p1));
 		l6p1.addButtonAction(7, new ButtonAction(7, l5p3));
 		l6p1.addButtonAction(8, new ButtonAction(8, l6p1));
-		l6p2.setImagePath("src/mindlesslump/ludumdare30/map6.jpg");
+		l6p2.setImagePath("/mindlesslump/ludumdare30/map6.jpg");
 		l6p2.addButtonAction(5, new ButtonAction(5, l7p1));
 		l6p2.addButtonAction(7, new ButtonAction(7, l5p3));
 		l6p2.addButtonAction(8, new ButtonAction(8, l6p2));
 		
-		l7p1.setImagePath("src/mindlesslump/ludumdare30/map7.jpg");
+		l7p1.setImagePath("mindlesslump/ludumdare30/map7.jpg");
 		l7p1.addButtonAction(1, new ButtonAction(1, l7p2));
 		l7p1.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p1.addButtonAction(8, new ButtonAction(8, l7p1));
-		l7p2.setImagePath("src/mindlesslump/ludumdare30/map7b.jpg");
+		l7p2.setImagePath("mindlesslump/ludumdare30/map7b.jpg");
 		l7p2.addButtonAction(1, new ButtonAction(1, l7p3));
 		l7p2.addButtonAction(6, new ButtonAction(6, l8p1));
 		l7p2.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p2.addButtonAction(8, new ButtonAction(8, l7p2));
-		l7p3.setImagePath("src/mindlesslump/ludumdare30/map7b.jpg");
+		l7p3.setImagePath("mindlesslump/ludumdare30/map7b.jpg");
 		l7p3.addButtonAction(6, new ButtonAction(6, l8p1));
 		l7p3.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p3.addButtonAction(8, new ButtonAction(8, l7p3));
+		
+		l8p1.setImagePath("nonexistent.jpg");
+		l8p1.addButtonAction(8, new ButtonAction(8,l8p1));
 	}
 	
 	private void doButtonSetup() {
