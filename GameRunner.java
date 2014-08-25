@@ -7,7 +7,6 @@ package mindlesslump.ludumdare30;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.ImageIcon;
 
 public class GameRunner implements ActionListener{
@@ -70,93 +69,93 @@ public class GameRunner implements ActionListener{
 		l0p0.setImagePath("src/mindlesslump/ludumdare30/startMap.jpg");
 		l0p0.addButtonAction(1, new ButtonAction(1, l0p1));
 		l0p0.addButtonAction(8, new ButtonAction(8, l0p0));
-		l0p1.setImagePath("mindlesslump/ludumdare30/startMap.jpg");
+		l0p1.setImagePath("src/mindlesslump/ludumdare30/startMap.jpg");
 		l0p1.addButtonAction(1, new ButtonAction(1, l1p1));
 		l0p1.addButtonAction(8, new ButtonAction(8, l0p1));
 		
-		l1p1.setImagePath("mindlesslump/ludumdare30/map1.jpg");
+		l1p1.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
 		l1p1.addButtonAction(1, new ButtonAction(1, l1p2));
 		l1p1.addButtonAction(8, new ButtonAction(8, l1p1));
-		l1p2.setImagePath("mindlesslump/ludumdare30/map1.jpg");
+		l1p2.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
 		l1p2.addButtonAction(1, new ButtonAction(1, l1p3));
 		l1p2.addButtonAction(8, new ButtonAction(8, l1p2));
-		l1p3.setImagePath("mindlesslump/ludumdare30/map1.jpg");
+		l1p3.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
 		l1p3.addButtonAction(1, new ButtonAction(1, l1p4));
 		l1p3.addButtonAction(6, new ButtonAction(6, l2p1));
 		l1p3.addButtonAction(8, new ButtonAction(8, l1p3));
-		l1p4.setImagePath("mindlesslump/ludumdare30/map1.jpg");
+		l1p4.setImagePath("src/mindlesslump/ludumdare30/map1.jpg");
 		l1p4.addButtonAction(1, new ButtonAction(1, l2p1));
 		l1p4.addButtonAction(8, new ButtonAction(8, l1p4));
 		
-		l2p1.setImagePath("mindlesslump/ludumdare30/map2.jpg");
+		l2p1.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
 		l2p1.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p1.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p1.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p1.addButtonAction(8, new ButtonAction(8, l2p1));
-		l2p2.setImagePath("mindlesslump/ludumdare30/map2.jpg");
+		l2p2.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
 		l2p2.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p2.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p2.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p2.addButtonAction(8, new ButtonAction(8, l2p2));
-		l2p3.setImagePath("mindlesslump/ludumdare30/map2.jpg");
+		l2p3.setImagePath("src/mindlesslump/ludumdare30/map2.jpg");
 		l2p3.addButtonAction(2, new ButtonAction(2, l1p3));
 		l2p3.addButtonAction(6, new ButtonAction(6, l5p1));
 		l2p3.addButtonAction(7, new ButtonAction(7, l3p1));
 		l2p3.addButtonAction(8, new ButtonAction(8, l2p3));
 		
-		l3p1.setImagePath("mindlesslump/ludumdare30/map3.jpg");
+		l3p1.setImagePath("src/mindlesslump/ludumdare30/map3.jpg");
 		l3p1.addButtonAction(5, new ButtonAction(5, l2p3));
 		l3p1.addButtonAction(6, new ButtonAction(6, l4p2));
 		l3p1.addButtonAction(8, new ButtonAction(8, l3p1));
-		l3p2.setImagePath("mindlesslump/ludumdare30/map3.jpg");
+		l3p2.setImagePath("src/mindlesslump/ludumdare30/map3.jpg");
 		l3p2.addButtonAction(5, new ButtonAction(5, l2p3));
 		l3p2.addButtonAction(6, new ButtonAction(6, l4p2));
 		l3p2.addButtonAction(8, new ButtonAction(8, l3p2));
 		
-		l4p1.setImagePath("mindlesslump/ludumdare30/map4.jpg");
+		l4p1.setImagePath("src/mindlesslump/ludumdare30/map4.jpg");
 		l4p1.addButtonAction(2, new ButtonAction(2, l3p2));
 		l4p1.addButtonAction(5, new ButtonAction(5, l5p2));
 		l4p1.addButtonAction(8, new ButtonAction(8, l4p1));
-		l4p2.setImagePath("mindlesslump/ludumdare30/map4.jpg");
+		l4p2.setImagePath("src/mindlesslump/ludumdare30/map4.jpg");
 		l4p2.addButtonAction(2, new ButtonAction(2, l3p2));
 		l4p2.addButtonAction(5, new ButtonAction(5, l5p2));
 		l4p2.addButtonAction(8, new ButtonAction(8, l4p2));
 		
-		l5p1.setImagePath("mindlesslump/ludumdare30/map5.jpg");
+		l5p1.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
 		l5p1.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p1.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p1.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p1.addButtonAction(8, new ButtonAction(8, l5p1));
-		l5p2.setImagePath("mindlesslump/ludumdare30/map5.jpg");
+		l5p2.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
 		l5p2.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p2.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p2.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p2.addButtonAction(8, new ButtonAction(8, l5p2));
-		l5p3.setImagePath("mindlesslump/ludumdare30/map5.jpg");
+		l5p3.setImagePath("src/mindlesslump/ludumdare30/map5.jpg");
 		l5p3.addButtonAction(2, new ButtonAction(2, l2p2));
 		l5p3.addButtonAction(5, new ButtonAction(5, l6p1));
 		l5p3.addButtonAction(7, new ButtonAction(7, l4p1));
 		l5p3.addButtonAction(8, new ButtonAction(8, l5p3));
 		
-		l6p1.setImagePath("mindlesslump/ludumdare30/map6.jpg");
+		l6p1.setImagePath("src/mindlesslump/ludumdare30/map6.jpg");
 		l6p1.addButtonAction(5, new ButtonAction(5, l7p1));
 		l6p1.addButtonAction(7, new ButtonAction(7, l5p3));
 		l6p1.addButtonAction(8, new ButtonAction(8, l6p1));
-		l6p2.setImagePath("/mindlesslump/ludumdare30/map6.jpg");
+		l6p2.setImagePath("src/mindlesslump/ludumdare30/map6.jpg");
 		l6p2.addButtonAction(5, new ButtonAction(5, l7p1));
 		l6p2.addButtonAction(7, new ButtonAction(7, l5p3));
 		l6p2.addButtonAction(8, new ButtonAction(8, l6p2));
 		
-		l7p1.setImagePath("mindlesslump/ludumdare30/map7.jpg");
+		l7p1.setImagePath("src/mindlesslump/ludumdare30/map7.jpg");
 		l7p1.addButtonAction(1, new ButtonAction(1, l7p2));
 		l7p1.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p1.addButtonAction(8, new ButtonAction(8, l7p1));
-		l7p2.setImagePath("mindlesslump/ludumdare30/map7b.jpg");
+		l7p2.setImagePath("src/mindlesslump/ludumdare30/map7b.jpg");
 		l7p2.addButtonAction(1, new ButtonAction(1, l7p3));
 		l7p2.addButtonAction(6, new ButtonAction(6, l8p1));
 		l7p2.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p2.addButtonAction(8, new ButtonAction(8, l7p2));
-		l7p3.setImagePath("mindlesslump/ludumdare30/map7b.jpg");
+		l7p3.setImagePath("src/mindlesslump/ludumdare30/map7b.jpg");
 		l7p3.addButtonAction(6, new ButtonAction(6, l8p1));
 		l7p3.addButtonAction(7, new ButtonAction(7, l6p2));
 		l7p3.addButtonAction(8, new ButtonAction(8, l7p3));
